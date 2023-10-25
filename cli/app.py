@@ -17,7 +17,7 @@ class Color:
     LMAGENTA = Fore.LIGHTMAGENTA_EX
 
 
-ANSWERS_FILE_PATH = Path('linkedin_assets', 'linkedin_data.json')
+ANSWERS_FILE_PATH = Path('linkedin_data.json')
 
 
 def find_answer(json_data: dict, question: str, copy_to_clipboard: bool = False):
@@ -36,13 +36,10 @@ with open(Path(ANSWERS_FILE_PATH), 'r', encoding='utf-8') as fi:
 
 print(f'{Color.LWHITE}\nSubjects available: {Color.LMAGENTA}{list(json_data.keys())}')
 
+
 while True:
     while True:
         input_question = input(f'{Color.WHITE}\nEnter the question → ').strip()
-
-        '''
-        Which statement is not an advantage of robotic process automation (RPA)?
-        '''
 
         if not input_question:
             input_question = pyperclip_paste().strip()
@@ -57,3 +54,5 @@ while True:
         print(f'{Color.LRED}\nNo answer found for: {Color.LYELLOW}{input_question}')
         continue
     print(answer)
+
+# Example question: Which statement is not an advantage of robotic process automation (RPA)?
