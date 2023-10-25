@@ -8,7 +8,7 @@ __pycache__
 
 # Other folders
 cli/linkedin_assets/github_source
-cli/linkedin_assets/extracted_md_files
+cli/linkedin_assets/extracted_files
 
 # Other files
 *.bat
