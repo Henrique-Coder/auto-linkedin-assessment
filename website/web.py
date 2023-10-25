@@ -5,7 +5,7 @@ from pathlib import Path
 from json import load
 
 
-with open(Path('linkedin_data.json'), 'r', encoding='utf-8') as fi:
+with open(Path('website/linkedin_data.json'), 'r', encoding='utf-8') as fi:
     json_data = dict(load(fi))
 
 available_subjects = list(json_data.keys())
