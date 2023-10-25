@@ -1,0 +1,7 @@
+# OS generated items
+*.ini
+
+# IDE items
+.idea
+venv
+__pycache__
