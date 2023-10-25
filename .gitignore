@@ -7,8 +7,8 @@ venv
 __pycache__
 
 # Other folders
-cli/linkedin_assets/github_source
-cli/linkedin_assets/extracted_files
+github_source
+extracted_files
 
 # Other files
 *.bat
