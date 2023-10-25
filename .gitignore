@@ -7,9 +7,7 @@ venv
 __pycache__
 
 # Other folders
-github_source
-extracted_files
+debug
 
 # Other files
 *.bat
-debug.py
