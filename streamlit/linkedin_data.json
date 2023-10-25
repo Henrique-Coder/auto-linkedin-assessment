@@ -5683,6 +5683,9 @@
         },
         "A Bootstrap **\\_** inserts a component that cycles through content using CSS **\\_** and JavaScript.": {
             "answer": "carousel; 3D Transforms"
+        },
+        "What is the tag inspector?": {
+            "answer": "A tool for viewing and editing the HTML tags of an element"
         }
     },
     "Eclipse": {
@@ -6531,6 +6534,12 @@
         },
         "**\\_** will rewind your project to a specific point in time, losing all commits that came after it. **\\_** will keep changes in those rewound commits as local modifications": {
             "answer": "`git reset --hard`; `git reset --soft`"
+        },
+        "Explain the concept of \"Git blame\" and when it is used in a version control workflow.": {
+            "answer": "Git blame is a tool for displaying who last modified each line of a file, helping to track changes and understand code history and authorship."
+        },
+        "What is the purpose of C++ move constructor, and when is it automatically generated?": {
+            "answer": "A move constructor allows efficient transfer of resources from one object to another,reducing unnecessary copying."
         }
     },
     "Go (Programming Language)": {
@@ -13473,7 +13482,9 @@
         "You are using work breakdown structure (WBS) codes for an in-progress project. Due to some schedule changes, tasks have been moved around, which has modified the WBS. How do you fix the WBS codes?": {
             "answer": "From the **Project** tab on the ribbon, click **WBS > Renumber**."
         },
-        "You are managing a construction project schedule with key tasks that have dependencies on each other. You need to supply key materials to your team they begin to build different of the building. All materials must be inventoried before they can be used for the project. The completion of the materials delivery and inventory task, which will take longer than the different building sections, will drive the completion of the building sections. You need to create a link from the delivery and inventory task to of building task. Which link type is appropriate?": {},
+        "You are managing a construction project schedule with key tasks that have dependencies on each other. You need to supply key materials to your team they begin to build different of the building. All materials must be inventoried before they can be used for the project. The completion of the materials delivery and inventory task, which will take longer than the different building sections, will drive the completion of the building sections. You need to create a link from the delivery and inventory task to of building task. Which link type is appropriate?": {
+            "answer": "Finish-to-Start (FS)"
+        },
         "When breaking down the work that needs to be done on a project, what is the smallest unit of work known as?": {
             "answer": "work package"
         },
@@ -13491,341 +13502,18 @@
         },
         "A certain resource has a workload that varies for a task. The task spans five days and is slow to start, ramps up in the middle, and then eventually tapers off as it comes to an end. Which approach would you use to adjust and represent varying workload?": {
             "answer": "resource contouring"
-        }
-    },
-    "Microsoft Word": {
-        "Which feature allows you to copy attributes of selected text and apply them to another selection?": {
-            "answer": "Format Painter tool"
         },
-        "To protect a document from accidental changes, which option should you select from the Protect Document (Windows) or Protect (Mac) menu?": {
-            "answer": "Always Open Read-Only."
+        "What is the purpose of a \"Critical Path\" in a Microsoft Project schedule, and how is it determined?": {
+            "answer": "it is the longest sequence of tasks that determine the project's overall duration."
         },
-        "You are finalizing a two-page document. Rather than having Word decide where page 1 ends, you want the next paragraph to begin on the top of page 2. How do you achieve this?": {
-            "answer": "Insert a page break."
+        "In Microsoft Project, what does the term \"Resource Overallocation\" refer to, and how can it be resolved?": {
+            "answer": "Resource Overallocation means a shortage of resources for a task. It can be resolved by leveling resources or adjusting resource calendars."
         },
-        "How do you insert the content of an existing Word document into your current Word document?": {
-            "answer": "Click Insert > Text > Text from File."
+        "In Microsoft Project, what does \"PERT\" stand for?": {
+            "answer": "Project Evaluation and Review Technique"
         },
-        "You want to set a wider inside margin to accommodate binding a document where pages are printed in both sides. Which option should you choose in the Page Setup dialog box?": {
-            "answer": "Book Fold."
-        },
-        "How can I place a ghosted logo or text behind the regular text in my document using a specific feature?": {
-            "answer": "Watermark."
-        },
-        "Where do you select the paper size for a document?": {
-            "answer": "Layout > Size."
-        },
-        "Which option lets you mark your favorite templates for quick reuse in the future?": {
-            "answer": "Pin to list."
-        },
-        "Which tab contains the option to add caption to a table?": {
-            "answer": "References"
-        },
-        "How can you change the appearance of an entire table in a single step?": {
-            "answer": "Apply a table style."
-        },
-        "Which option does the Find and Replace feature **NOT** support?": {
-            "answer": "Match Punctuation"
-        },
-        "Which statement best describes how a bookmark is used in a Word document?": {
-            "answer": "A bookmark works in conjunction with hyperlinks to allow you to quickly jump to a specific location in your document."
-        },
-        "What is **NOT** an option when inviting a colleague to collaborate on a document?": {
-            "answer": "granting administrator access"
-        },
-        "You split a document into three sections. What happens if you change the margins in the first section?": {
-            "answer": "The new margin settings are applied to just the first section."
-        },
-        "Which ribbon tab includes commands to add various types of objects or media to your document?": {
-            "answer": "Insert"
-        },
-        "What type of page is useful at the front of a large document, to identify the document title, author, and other metadata?": {
-            "answer": "cover page"
-        },
-        "What happens in this SmartArt object when you press the Delete key?": {
-            "answer": "The boxes resize to maintain the same overall height."
-        },
-        "What happens in this SmartArt diagram when you delete the selected object?": {
-            "answer": "The remaining objects resize to maintain the same overall height."
-        },
-        "Which command builds an overview of document contents based on applied headings styles?": {
-            "answer": "Table of Contents"
-        },
-        "Which statistic does the Word Count feature **NOT** collect?": {
-            "answer": "page breaks"
-        },
-        "What is the default view when you open a document or create a new document?": {
-            "answer": "Print Layout view"
-        },
-        "You are working on a local copy of a document when Word unexpectedly closes. After you relaunch Word, how can you find the most recently saved version of the document?": {
-            "answer": "Click File > Open > Recent > Documents."
-        },
-        "Which object type can you _not_ insert into a Word document from the **Insert** tab?": {
-            "answer": "a sketch"
-        },
-        "What Microsoft Word feature lets you capture a portion of your screen to be used as an image in your document?": {
-            "answer": "Screen Clipping"
-        },
-        "You want to create a shortcut that replaces an acronym that you type with the acronym's full text-for example, replacing `\"/mt\"` with `\"Microsoft Teams\"`. What Word feature do you use to create this shortcut?": {
-            "answer": "AutoCorrect Options"
-        },
-        "Your document contains two columns of content with a vertical line between the columns, as shown. From where can you delete the line?": {
-            "answer": "Columns dialog box"
-        },
-        "When you crop an image in a document, what happens to the image and the overall document file size?": {
-            "answer": "The cropped parts of the image are hidden and the overall file size does not change."
-        },
-        "When you are typing in a paragraph and reach the end of the line, Word automatically starts a new line for you. What is this feature called?": {
-            "answer": "word wrap"
-        },
-        "You want to create an organizational chart. Which SmartArt category should you choose?": {
-            "answer": "Hierarchy"
-        },
-        "When you insert page numbers, which position is **NOT** an option?": {
-            "answer": "inset"
-        },
-        "How can you quickly move an insertion point up to the start of the previous paragraph?": {
-            "answer": "Press Ctrl+Up Arrow (Windows) or Command+Up Arrow (Mac)."
-        },
-        "You send a document to two clients for review, and each client returns a separate, edited version of the document. How do you most efficiently review their feedback?": {
-            "answer": "Click **Review > Compare**."
-        },
-        "What is the difference between a footnote and an endnote?": {
-            "answer": "A footnote is placed at the bottom of the page, and an endnote is placed at the end of the document."
-        },
-        "Which formatting option was used to create the effect shown below?": {
-            "answer": "Subscript"
-        },
-        "What Word building block uses headings to help users identify the contents of a document?": {
-            "answer": "table of contents"
-        },
-        "You have been reviewing a Word document using Track Changes. There are still changes that need to be reviewed, but you cannot see them. Why is this? (Select all that apply.)": {
-            "answer": "A, B"
-        },
-        "You are coordinating the update of your company's 10-chapter operations manual. You begin by saving each chapter as a separate document. What Word feature can you use to manage all of these chapter documents?": {
-            "answer": "master document"
-        },
-        "Which is a benefit of using heading styles to format a report?": {
-            "answer": "all of these answers"
-        },
-        "You need to add a trademark symbol to a new product name. How can you accomplish this? (Select two items.)": {
-            "answer": "A and B"
-        },
-        "You are reformatting a professional document that you created previously using manual formatting. In your document, first-level headings are formatted with Arial 11 Bold. What is the fastest way to create and apply a Heading 1 style using these properties?": {
-            "answer": "On Windows: Select one of the first level headings. Right-click **Heading 1** and update it to match the selection.On Mac: With the **style** pane open, highlight a Heading 1 in the document, then in the style pane drop-down for Heading 11, select Update to Match Selection."
-        },
-        "You are typing text in two columns. When you reach the end of a paragraph in column 1, you want to start the next paragraph in column 1 on the next page. What type of break should you insert at this point?": {
-            "answer": "page break"
-        },
-        "You want to capture all the content and design elements in your current document, so you can use them as a starting point when creating new documents. To do so, save the current document as **\\_**.": {
-            "answer": "a template file"
-        },
-        "Which file format best preserves formatting and allows editing when a Word document is transferred to another application?": {
-            "answer": "Rich Text Format (RTF)"
-        },
-        "How can you break a table into two parts?": {
-            "answer": "Use the Split Table command."
-        },
-        "What can you **NOT** create from a Word document?": {
-            "answer": "a multipage website"
-        },
-        "How can you add a manual line break to a paragraph?": {
-            "answer": "Press Shift+Enter (Windows) or Shift+Return (Mac)"
-        },
-        "You want to repeat an element (such as the date) on all pages of the document. Which options should you choose?": {
-            "answer": "Insert > Header & Footer"
-        },
-        "You want to repeat an element (such as the date) at the bottom of all pages of a document. Which option should you choose?": {
-            "answer": "Insert > Footer"
-        },
-        "A document has been shared with you from your colleague's OneDrive library. They have given only you editing access. What can you do with this document?": {
-            "answer": "Share the document with others."
-        },
-        "In the image below, what do the red bars next to the text indicate?": {
-            "answer": "Changes were made to these areas."
-        },
-        "What formatting must you use to use both portrait and landscape pages in the same Word document?": {
-            "answer": "sections"
-        },
-        "What is the name of the text effect that displays a large capital letter at the beginning of a paragraph?": {
-            "answer": "drop cap"
-        },
-        "You need to document a procedure. Which paragraph format is best to help readers follow the sequence of instructions?": {
-            "answer": "numbered list"
-        },
-        "How can you adjust which data in a table is used when creating a chart?": {
-            "answer": "Click the Edit Data button."
-        },
-        "You want to be able to edit your Word document simultaneously with other Word users in your organization. Which save location should you select in the Save As dialog box?": {
-            "answer": "A or B"
-        },
-        "Why is it important to use alternative text for objects in your document?": {
-            "answer": "It helps a user with a visual impairment who is using a screen reader understand the content of the object."
-        },
-        "What is a benefit of using sections in a Microsoft Word document?": {
-            "answer": "You can apply unique formatting to each section."
-        },
-        "How can you tell if a colleague is coauthoring a document at the same time as you? (Select all that apply.)": {
-            "answer": "A, C, D"
-        },
-        "When you insert a picture into a document, what happens to the picture?": {
-            "answer": "Word scales the image to the largest size possible to fit within the height or width of the page."
-        },
-        "When working with Track Changes, what is the difference between Simple Markup and all Markup?": {
-            "answer": "Simple Markup shows the markup versions by one selected author; All Markup shows the combined markup version of all authors."
-        },
-        "You're finalizing a document that contains some high-resolution images. You want to reduce the picture size while ensuring image quality is adequate for online viewing. What is a best-practice approach?": {
-            "answer": "Review the images and crop as needed. Then compress the images and delete cropped areas."
-        },
-        "Before you send a document to an external client, you must remove personal information--including document author names, comments, and hidden text--from the doc. What tool can help you locate and clean up these details?": {
-            "answer": "Document Inspector"
-        },
-        "What chart type cannot be used for more than one data series?": {
-            "answer": "Pie"
-        },
-        "In the image below, where do you click to hide comments when a document prints?": {
-            "answer": "B"
-        },
-        "Which page orientation should you select to accommodate a wide chart or table?": {
-            "answer": "Landscape"
-        },
-        "What is the first step in sharing a document that is currently saved on your local hard drive?": {
-            "answer": "Upload the document to OneDrive."
-        },
-        "You are working in another application and want to move text into a Word document. How can you do it?": {
-            "answer": "Use the Insert command and select the Word document."
-        },
-        "What is typically created as the first page of a document and contains information such as the document title and author?": {
-            "answer": "cover page"
-        },
-        "Before publishing a document, you want to identify issues that may make it difficult for people with disabilities to read. which feature should you use?": {
-            "answer": "check Accessibility"
-        },
-        "After selecting the entire document, what is the quickest way to find out how many paragraphs there are in your current Word document?": {
-            "answer": "On the status bar, select Word Count to display file information, including the number of paragraphs."
-        },
-        "You want to be able to read one page in your document while editing another page in the same document. What's the most efficient way to do this with only one monitor?": {
-            "answer": "On the View tab of the ribbon, click Split."
-        },
-        "What is the purpose of adding alternative text (alt text) to an image in your document?": {
-            "answer": "all of these answers"
-        },
-        "You are inserting several images in a document and need to include descriptive information about them. Numbering the images will also make it easier to reference them in the associated document text. Which command can help you set this up?": {
-            "answer": "Insert Caption"
-        },
-        "You want an image to move with the surrounding text as you make changes to the document. Which option should you select?": {
-            "answer": "With Text Wrapping"
-        },
-        "You want to place a triangle shape on your page. Where do you find the shape?": {
-            "answer": "On the Insert tab, click Shapes and look in the Basic Shapes section."
-        },
-        "When printing multiple copies of a document, which option groups consecutive pages together, making them easier to distribute?": {
-            "answer": "Collated"
-        },
-        "You are sharing your computer screen to collaborate on a document. Which view should you use to minimize the ribbon and give your document the most screen space?": {
-            "answer": "Read Mode (Windows) or Focus (Mac)"
-        },
-        "You want a different header and footer to appear on alternating pages. Which option should you choose?": {
-            "answer": "Different Odd & Even Pages"
-        },
-        "When you start a new, blank document, you usually end up changing the font to Arial 11.5 point. How can you make these settings the default for this and all future new documents?": {
-            "answer": "In a new, blank document, from the Font dialog box, make your changes and set as default for All documents based on the Normal template."
-        },
-        "You inserted a picture into a brochure, and you want to cut down on the background to focus only on the main part of the image. How can you accomplish this?": {
-            "answer": "In **Picture Tools**, select **Remove Background**."
-        },
-        "The form you are creating includes a field where users can either pick from a list of choices you provide, or type in a different entry. Which control type should you use?": {
-            "answer": "combo box"
-        },
-        "There is a circle shape in your document. Which of the shape's style can you format?": {
-            "answer": "all of these answers"
-        },
-        "A word theme is composed of settings for which document attributes?": {
-            "answer": "colors, fonts, and effects"
-        },
-        "When using the Compare function, the differences between two documents are outlined **\\_**.": {
-            "answer": "in red"
-        },
-        "You have inserted a picture in your Word document, and you want to ensure that users with visual impairments can access the picture. How can you do this?": {
-            "answer": "Insert alt text."
-        },
-        "You are creating a company newsletter. The first page has three columns, and the second page will need four columns. How would you do this?": {
-            "answer": "Insert a section break at the end of the first page."
-        },
-        "You just applied a change from the Design tab of the ribbon, and all of the fonts and formatting in your document changed. What did you change?": {
-            "answer": "A, B, or C"
-        },
-        "You want to start a new text section at the current cursor position without adding a new page. Which type of section break should you choose?": {
-            "answer": "Continuous"
-        },
-        "Which function allows you to treat multiple objects as a single object for the purpose of manipulating their display or placement within a document?": {
-            "answer": "Group"
-        },
-        "Which function turns a document into a webpage?": {
-            "answer": "Format"
-        },
-        "Which is not a text wrapping option for a picture?": {
-            "answer": "justify"
-        },
-        "You are editing a paragraph that begins on one page and ends on the next after selecting the entire paragraph, how can you display it on one page?": {
-            "answer": "In paragraph settings, click Line and Page Break > pagination and select Keep with next"
-        },
-        "Double clicking in the left margin will \\_ the paragraph to the right.": {
-            "answer": "select"
-        },
-        "When using Track Changes, what formatting indicates that text has been deleted?": {
-            "answer": "strikethrough"
-        },
-        "What action allows you to quickly access a specific document from your list of saved files?": {
-            "answer": "Mark as favorite"
-        },
-        "When you create a macro, you can assign it to a **\\_**. (Select all that apply.)": {
-            "answer": "A"
-        },
-        "Both boxes contain a white arrow, but it is visible only in the second box. What command was applied to the second box to make the arrow visible?": {
-            "answer": "Send to back"
-        },
-        "Which selection handle should you drag to rotate the object?": {
-            "answer": "A"
-        },
-        "You and your colleagues are asked to reply to some comments in a documents you have addressed your comments. Which choice is not a good way to indicate that you have taken care of the comments before sending the file to the next person?": {
-            "answer": "Delete the comment"
-        },
-        "What action allow you to quickly access a specific docuemnt from your list of saved file?": {
-            "answer": "Bookmark"
-        },
-        "For what task can you not use the style inspector?": {
-            "answer": "recommending style changes for improved accessibility"
-        },
-        "Your industry uses a lot of terminology that is not included in regular dictionaries, so document checking is both inaccurate and laborious. How can you modify Word to make document checking more efficient and accurate?": {
-            "answer": "Create a custom dictionary that includes your specific terminology"
-        },
-        "What happens when you resolve a comment?": {
-            "answer": "The comment appears dimmed"
-        },
-        "Using the Styles group in Word lets you quickly **\\_\\_**?": {
-            "answer": "apply styles for heading levels, body text, and titles"
-        },
-        "You need to direct a reader from specific text to a related graphic that clarifies the content in another place in your document. Which command can you use to set this up?": {
-            "answer": "Cross-Reference"
-        },
-        "When are mirrored margins typically used?": {
-            "answer": "when printing on both sides of the paper"
-        },
-        "You created a professional-looking business letter and would like to have all your letters look like this. What is the best way to do this?": {
-            "answer": "Create a template by saving the file as a .dot file."
-        },
-        "Which style type should you create in order to control font, font color, tab positions, and line breaks?": {
-            "answer": "paragraph"
-        },
-        "You realize unwanted changes were made to a document, so you want to go back to the file you previously saved. What should you use to accomplish this task?": {
-            "answer": "Version History"
-        },
-        "What tasks are required to create a template from an existing document?": {
-            "answer": "A, C"
-        },
-        "Which of the following is an example of page orientation?": {
-            "answer": "Landscape"
+        "What is a \"Resource Calendar\" used for in Microsoft Project?": {
+            "answer": "To manage resource availability and working hours"
         }
     },
     "MongoDB": {
@@ -15912,7 +15600,9 @@
         }
     },
     "QuickBooks": {
-        "How can you track sick and vacation time in QuickBooks?": {},
+        "How can you track sick and vacation time in QuickBooks?": {
+            "answer": "Set up sick or vacation time as a wage item, then define how QuickBooks should accrue it when you set up your employees."
+        },
         "You _cannot_ use the Enter Bills > Pay Bills approach to pay what type of bill?": {
             "answer": "sales taxes"
         },
@@ -15928,7 +15618,9 @@
         "When initially setting up a company through the Advanced/Detailed Setup, which information does QuickBooks require you to enter?": {
             "answer": "company name"
         },
-        "What does setting up fixed assets in QuickBooks enable you to do?": {},
+        "What does setting up fixed assets in QuickBooks enable you to do?": {
+            "answer": "Track larger purchases that you may later sell."
+        },
         "When would the Expenses tab on a payroll liability check be used?": {
             "answer": "to enter late fees, penalties, or interest"
         },
@@ -15944,11 +15636,15 @@
         "Is it possible to merge two list entries?": {
             "answer": "Yes. From the bottom of the list, click Activities > Combine List Name, and then select the list entries you would like to merge."
         },
-        "Can you delete a vendor whom you are no longer using from the list?": {},
+        "Can you delete a vendor whom you are no longer using from the list?": {
+            "answer": "You can delete the vendor only if they are not used in transactions or are part of another list entry, but you can make them inactive."
+        },
         "Why is setting a closing date in QuickBooks a good practice?": {
             "answer": "After reports have been printed, changes cannot be made to transactions before the closing date without a password."
         },
-        "Why would you clear the Bill Received check box when entering a bill on the Enter Bills screen?": {},
+        "Why would you clear the Bill Received check box when entering a bill on the Enter Bills screen?": {
+            "answer": "There is a discrepancy in the bill received and the amount you expected."
+        },
         "How do you record a debit card purchase in QuickBooks?": {
             "answer": "Use the Enter Bills window to enter the information, then immediately go to the Pay Bills window and prepare the check. Print the check for your records, but you do not need to mail it."
         },
@@ -16042,26 +15738,61 @@
         "Where does QuickBooks get the billable time and costs information when you invoice for time and costs?": {
             "answer": "from the billable time entered on timesheets and/or billable costs entered through checks and bills"
         },
-        "How can you discount just one item on an invoice for a customer?": {},
-        "On the Home Page, which tab provides a snapshot of your company finances? And is this snapshot a data dashboard or a task list?": {},
-        "What is the preferred style of check to provide to employees on payday?": {},
-        "When would you use Progress Invoicing?": {},
-        "What is a good way to handle prospective clients?": {},
-        "You wrote a check and later discovered it was for an incorrect amount. What is the best way to handle this, if you know the check will not be cashed?": {},
-        "QuickBooks allows users to condense files when the company file becomes too large. What happens when you choose to remove transactions as of a specified date from the Condense Data window?": {},
+        "How can you discount just one item on an invoice for a customer?": {
+            "answer": "Create a Discount item and use it on the line immediately after the item you want to discount."
+        },
+        "On the Home Page, which tab provides a snapshot of your company finances? And is this snapshot a data dashboard or a task list?": {
+            "answer": "Insights; data dashboard"
+        },
+        "What is the preferred style of check to provide to employees on payday?": {
+            "answer": "The voucher check, so they have the net check amount plus all of the information regarding earnings, taxes, and withheld items."
+        },
+        "When would you use Progress Invoicing?": {
+            "answer": "to invoice from an estimate as work is completed"
+        },
+        "What is a good way to handle prospective clients?": {
+            "answer": "Use the Lead Center by clicking Customers > Lead Center."
+        },
+        "You wrote a check and later discovered it was for an incorrect amount. What is the best way to handle this, if you know the check will not be cashed?": {
+            "answer": "In the account register, select the check and click Edit > Void Check."
+        },
+        "QuickBooks allows users to condense files when the company file becomes too large. What happens when you choose to remove transactions as of a specified date from the Condense Data window?": {
+            "answer": "All transaction details are removed, but the summary totals are kept in the system, to allow financial statements to be run for prior periods."
+        },
         "How are cash inflows and outflows related to the company's primary business classified?": {},
-        "During the EasyStep Interview, which features can you turn on and off?": {},
-        "Which report can you use if you suspect someone has changed a transaction?": {},
-        "You notice two or more similar names in the Vendor Center that reference the same vendor. What can you do to clean up the vendor list?": {},
-        "What changes in QuickBooks if you put in a bank account number or any other personally identifiable information?": {},
-        "What account does QuickBooks use to temporarily hold payments you receive from customers before you create your bank deposit?": {},
-        "Why would you hide or collapse subaccounts on a report?": {},
-        "A customer purchases goods or services with terms of net 30. How do you record this transaction in QuickBooks?": {},
-        "What is an effective way to restrict a specific user from being able to change, delete, or add a transaction after reports have been run?": {},
-        "What is the best way to record a sale when the customer pays at the time of the sale?": {},
-        "What sequence of steps is required to process payroll?": {},
-        "Which accounts are affected when the timesheets function is used in QuickBooks to track employee hours?": {},
-        "What is the purpose of the little diamonds located next to certain list entries?": {},
+        "During the EasyStep Interview, which features can you turn on and off?": {
+            "answer": "Jobs, Payroll, and Lists"
+        },
+        "Which report can you use if you suspect someone has changed a transaction?": {
+            "answer": "Audit Trail report"
+        },
+        "You notice two or more similar names in the Vendor Center that reference the same vendor. What can you do to clean up the vendor list?": {
+            "answer": "Merge the similar names into one vendor by renaming the vendors, using the same name for each."
+        },
+        "What account does QuickBooks use to temporarily hold payments you receive from customers before you create your bank deposit?": {
+            "answer": "Undeposited Funds"
+        },
+        "Why would you hide or collapse subaccounts on a report?": {
+            "answer": "Doing so temporarily hides details, which enables you to focus on values in the parent accounts."
+        },
+        "A customer purchases goods or services with terms of net 30. How do you record this transaction in QuickBooks?": {
+            "answer": "Create an invoice by going to your Home Page and, in the Customers section, selecting Create Invoices."
+        },
+        "What is an effective way to restrict a specific user from being able to change, delete, or add a transaction after reports have been run?": {
+            "answer": "Select Restrict entry after this date for the user."
+        },
+        "What is the best way to record a sale when the customer pays at the time of the sale?": {
+            "answer": "sales receipt"
+        },
+        "What sequence of steps is required to process payroll?": {
+            "answer": "Enter Time > Pay Employees > Pay Payroll Liabilities > Process Payroll Forms"
+        },
+        "Which accounts are affected when the timesheets function is used in QuickBooks to track employee hours?": {
+            "answer": "Payroll Payable and Payroll Expense would be affected."
+        },
+        "What is the purpose of the little diamonds located next to certain list entries?": {
+            "answer": "The diamond indicates that the list entry cannot be moved or deleted because it has open transactions."
+        },
         "What is a QuickReport in QuickBooks?": {
             "answer": "A Predesigned report that shows more detail about the data you are currently viewing on screen"
         }
@@ -17182,12 +16913,17 @@
         "When defining a resource route, seven routes are defined by default. Which two methods allow defining additional routes on the resource?": {
             "answer": "member, collection"
         },
-        "You are rendering a partial with this code. What will display the user's name?": {},
+        "You are rendering a partial with this code. What will display the user's name?": {
+            "answer": "`<%= object.name %>`"
+        },
         "Once this form is submitted, which code in the controller would retrieve the string for :name?": {
             "answer": "`params[:category][:name]`"
         },
         "Which missing line would best show the correct usage of strong parameters?": {
             "answer": "`params.require(:project).permit(:name, :visible, :description)`"
+        },
+        "What is the purpose of the rake db:migrate command?": {
+            "answer": "`To migrate the database schema to the latest version.`"
         }
     },
     "Rust (Programming Language)": {
@@ -18146,7 +17882,7 @@
             "answer": "Activate the Select tool, hold down the Shift key, and click each entity you would like to add to the selection set."
         },
         "which icon represents a tool that will extrude a surface?": {
-            "answer": "B ![image](https://github.com/Saharshjain78/linkedin-skill-assessments-quizzes/assets/117359137/60c25e24-b1c0-44d8-aee7-07f49dc8f9b4)"
+            "answer": "Use the \"Materials\" panel to select and paint individual faces."
         },
         "what is the purpose of the 2D people included in some sketchUp templates?": {
             "answer": "to show a scale reference"
@@ -18194,7 +17930,7 @@
             "answer": "To create a cutting plane in your model to show cross-sections."
         },
         "How can you apply a specific texture or material to a single face in SketchUp?": {
-            "answer": "Use the \"Materials\" panel to select and paint individual faces."
+            "answer": "Click File > Save"
         }
     },
     "SOLIDWORKS": {
