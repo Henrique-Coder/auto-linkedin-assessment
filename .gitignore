@@ -5,6 +5,3 @@
 .idea
 venv
 __pycache__
-
-# Other items
-*.json
