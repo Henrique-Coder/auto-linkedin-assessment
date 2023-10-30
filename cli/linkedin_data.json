@@ -150,8 +150,12 @@
         "Robinson Hotels is trying to predict its utility costs. It has five years of data, including monthly utility costs, monthly occupancy rates, and average monthly temperature. What tool or technique can Robinson Hotels use to predict or estimate its future utility costs?": {
             "answer": "regression analysis"
         },
-        "What does an inventory turnover ratio measure?": {},
-        "The company earned a gross profit of $4,000,000 and had net sales of $12,000,000. What is the gross margin and what does the result imply to the reviewer?": {},
+        "What does an inventory turnover ratio measure?": {
+            "answer": "the number of times inventory was sold during the period"
+        },
+        "The company earned a gross profit of $4,000,000 and had net sales of $12,000,000. What is the gross margin and what does the result imply to the reviewer?": {
+            "answer": "The 3.33% gross margin represents for every dollar in sales, the company spends $0.9667 to produce the product sold."
+        },
         "What type of cost changes in proportion to a company's production volume?": {
             "answer": "variable cost"
         },
@@ -173,7 +177,9 @@
         "The cost of alternative X is $25,000 and the cost of alternative Y is $20,000. What do you call the $5,000 cost difference?": {
             "answer": "differential cost"
         },
-        "What is the purpose of a master budget?": {},
+        "What is the purpose of a master budget?": {
+            "answer": "to provide management with a high-level overview of the company finances and be a central planning tool"
+        },
         "What is true about an internal control system?": {
             "answer": "An internal control system helps a company achieve reliable financial reporting, effective and efficient operations, and compliance with laws and regulations."
         },
@@ -919,7 +925,9 @@
         },
         "While formatting some text in InDesign, you apply a paragraph style that uses the Adelle Regular font. However, after applying the style, all of the text is formatted using Adelle Bold. The paragraph style shows no overrides. What is most likely the cause of this?": {},
         "What is the gutter?": {},
-        "Where do you set left and right indents for typing in a selected text frame?": {},
+        "Where do you set left and right indents for typing in a selected text frame?": {
+            "answer": "the Paragraph panel"
+        },
         "When applying a color to text, why is it a problem to use the registration color instead of black?": {},
         "This text frame is filled with Paper and there are only two frames (the text frame and the image behind it). How would you achieve this effect, where you can see through the frame but not the text?": {},
         "When you hover your mouse over a frame, the Content Grabber appears. However, when you click the Content Grabber, no image appears within the frame. What is most likely the cause of this?": {
@@ -946,7 +954,9 @@
         "What can you infer about the LightGreen color?": {
             "answer": "The color swatch is a spot color."
         },
-        "The frame on the left is being moved. What does the green arrow indicate?": {},
+        "The frame on the left is being moved. What does the green arrow indicate?": {
+            "answer": "The space between the two frames equals the space between the frame and some other frame.??"
+        },
         "What does a yellow triangle icon in the Links panel indicate about an image?": {
             "answer": "The image is modified."
         },
@@ -968,7 +978,9 @@
         "What is one reason to use a nested line style?": {
             "answer": "to make only the first line of a paragraph align with the baseline grid"
         },
-        "what does the circled i icon indicate?": {},
+        "what does the circled i icon indicate?": {
+            "answer": "A GREP expression has been attached."
+        },
         "A tagline that overlaps a graphic disappears when you move an image frame close to it. Why is this happening and how do you fix it?": {
             "answer": "The image frame has Text Wrap settings in place. Right-click the type in question and select `Text Frame Options > Ignore Text Wrap`."
         },
@@ -1096,6 +1108,15 @@
         },
         "Which key would you press to add images to a targeted Quick Collection?": {
             "answer": "в"
+        },
+        "In Lightroom, what is the purpose of the \"Dehaze\" tool, and how does it affect your images during post-processing?": {
+            "answer": "It reduces or increases atmospheric haze and improves image clarity."
+        },
+        "When exporting photos in Lightroom, what is the difference between the \"sRGB\" and \"Adobe RGB\" color space options, and when might you choose one over the other for specific output requirements?": {
+            "answer": "\"sRGB\" is suitable for web and display use, while \"Adobe RGB\" is preferred for high-quality printing to maintain a wider color gamut."
+        },
+        "In Lightroom, which feature allows you to apply specific adjustments to parts of an image using a brush, gradient, or radial filter?": {
+            "answer": "Local Adjustments"
         }
     },
     "Adobe Photoshop": {
@@ -1381,9 +1402,15 @@
         "You need to preserve layers in your file. Which file format do you use?": {
             "answer": "PSD"
         },
-        "Which RGB control do you click to add a single control point to the Curve adjustment?": {},
-        "What is the easiest way to export all layers in a document as individual files?": {},
-        "Which options bar icon subtracts from a selection?": {},
+        "Which RGB control do you click to add a single control point to the Curve adjustment?": {
+            "answer": "A (on-image adjustment tool)"
+        },
+        "What is the easiest way to export all layers in a document as individual files?": {
+            "answer": "Click **File > Export > Layers to Files**."
+        },
+        "Which options bar icon subtracts from a selection?": {
+            "answer": "D"
+        },
         "Which tool samples a group of pixels and brushes them into a new area without modifying them first?": {
             "answer": "Clone Stamp Tool"
         },
@@ -1640,7 +1667,7 @@
             "answer": "MOV"
         },
         "Which user interface item identifies the current frame in the Program Monitor?": {
-            "answer": "playhead"
+            "answer": "To stabilize shaky or jittery video footage."
         }
     },
     "Adobe XD": {
@@ -1665,7 +1692,9 @@
         "Your developer notifies you that the left alignment of some of the text in a slide-in menu is off by 2 pixels. How did the developer catch this?": {
             "answer": "The distance values are shown in the developer's share screen."
         },
-        "How can you swap one component for another that is already in the project?": {},
+        "How can you swap one component for another that is already in the project?": {
+            "answer": "Drag the new component from the Assets panel on top of the existing component in the project."
+        },
         "You created a button and converted it to a component to make the button interactive. When you open the Component (Master) area in the Property Inspector and click Default State, you notice the button already has one state applied to it. What state is applied?": {
             "answer": "Hover"
         },
@@ -1722,6 +1751,12 @@
         },
         "What does a folder icon in the Layers panel indicate?": {
             "answer": "a group"
+        },
+        "When designing a mobile app interface in Adobe XD, what is the recommended artboard size for an iPhone 11 Pro?": {
+            "answer": "1125x2436 pixels"
+        },
+        "What is the purpose of the \"Asset Export\" feature in Adobe XD?": {
+            "answer": "It enables you to export assets (such as icons and images) for use in web or app development."
         }
     },
     "After Effects": {
@@ -1858,7 +1893,7 @@
         "Write characteristics do the output module settings control?": {},
         "Output format": {},
         "Time span": {
-            "answer": "B, C, E"
+            "answer": "World axis"
         }
     },
     "Agile Methodologies": {
@@ -2843,7 +2878,7 @@
     },
     "AutoCAD": {
         "You have an application using a 100 GB MySQL database that you are migrating into AWS. What should you consider when deciding between whether to host the database on RDS for MySQL or Aurora?": {
-            "answer": "all of these answers"
+            "answer": "All of the above"
         },
         "The LAYOFF command turns off the layer of any selected object. What happens if you select an object on the current drafting layer?": {
             "answer": "AutoCAD prompts you if you want to turn off that layer."
@@ -2912,7 +2947,7 @@
             "answer": "SYSVARMONITOR"
         },
         "When using HIDE or ISOLATE in a drawing, the objects are either hidden or isolated for clarity. What happens to the layers of hidden or isolated objects?": {
-            "answer": "Nothing happens."
+            "answer": "Nothing happens"
         },
         "When scaling a drawing from imperial feet and inches to metric millimeters, what scale factor do you use in the SCALE command, before adjusting your units settings?": {
             "answer": "25.4"
@@ -4607,6 +4642,12 @@
         },
         "What is a template metaprogram in C++?": {
             "answer": "A template metaprogram is a compile-time computation, where templates and template specialization are used to perform computations at compile time."
+        },
+        "Identify the correct example for a pre-increment operator.": {
+            "answer": "++i"
+        },
+        "What will be the output of following code?": {
+            "answer": "Same matrix"
         }
     },
     "C (Programming Language)": {
@@ -5673,7 +5714,7 @@
             "answer": "em; inherited value"
         },
         "A favicon is often added to the element to display a small image or logo alongside the page title in the browser tab. What's the correct way of inserting a favicon (assuming you have the relevant icon in your images folder)?": {
-            "answer": "<link href=”images/favicon.ico”rel=”icon” type=”image/icon”>"
+            "answer": "`<link href=”images/favicon.ico”rel=”icon” type=”image/icon”>`"
         },
         "Dreamweaver offers several options for refactoring JavaScript code, including renaming, extracting an expression to a variable, and extracting an expression to a function. What other refactoring options does it offer?": {
             "answer": "Wrap in condition, Extract method, Convert to arrow function Create getters/setters"
@@ -6152,7 +6193,7 @@
             "answer": "A list of remote repositories and their URLs"
         },
         "Looking at the following commands, describe what is happening.": {
-            "answer": "A commit is being copied from its original branch over to the feature-user-location branch"
+            "answer": "The branch is switched to the feature-user-location branch, and the specified commit is applied to the branch."
         },
         "What does the following command do to the git repository?": {
             "answer": "It sets HEAD to the previous commit and leaves changes from the undone commit in the stage/index."
@@ -6192,9 +6233,6 @@
         },
         "What commands would you use to force an overwrite of your local files with the master branch?": {
             "answer": "⠀"
-        },
-        "Which statement is true when you use the git add -A command?": {
-            "answer": "All new and updated files from the working directory are staged to the index."
         },
         "You find that your project has a tag and branch both named push-notifications, which causes confusion when trying to print out given reference. How can you specify which branch you want to look at?": {
             "answer": "use git show refs/head/push-notifications"
@@ -6274,9 +6312,6 @@
         "Which of these terms best describes Git?": {
             "answer": "Distributed Version Control System"
         },
-        "Which command gets a copy of an existing Git repository?": {
-            "answer": "clone"
-        },
         "How does Git think of its data?": {
             "answer": "Snapshot"
         },
@@ -6337,9 +6372,6 @@
         "After starting to merge a feature branch into your master branch, you encounter a merge conflict and decide you do not want to perform the merge. How can you stop the merge and restore to the pre-merge state?": {
             "answer": "Use git merge --abort."
         },
-        "If you have several commits for a single feature, what is the most efficient way to restructure your commit history?": {
-            "answer": "Use git squash to consolidate the commits together into a single coherent commit."
-        },
         "Which command correctly creates a lightweight tag?": {
             "answer": "`git tag v3.8.1`"
         },
@@ -6357,9 +6389,6 @@
         },
         "What conflicts can occur when forcing a push after rebasing?": {
             "answer": "The remote master branch could have existing changes overwritten."
-        },
-        "How does this command alter the currently checked-out branch?": {
-            "answer": "It sets HEAD to previous commit and leaves changes from the undone commit in the stage/index."
         },
         "What is the difference between Git and SVN?": {
             "answer": "SVN is a centralized system, while Git is a distributed system."
@@ -6390,9 +6419,6 @@
         },
         "Which use case is NOT a good candidate for a Git hook?": {
             "answer": "state dependent environment changes"
-        },
-        "After starting to work on a new feature and creating new files in the working directory related to it, the customer determined the feature was no longer required. What command can be used to remove the untracked files from the working directory ?": {
-            "answer": "`git clean -f`"
         },
         "What information do Git reflogs (reference logs) store?": {
             "answer": "updates to branch tips and other references in the local repository"
@@ -6504,9 +6530,6 @@
         },
         "What practice can help reduce the chances of encountering a merge conflict?": {
             "answer": "Keep local repository branches in sync with upstream branches in the remote repository by committing,pushing and pulling frequently."
-        },
-        "You have changed your mind about adding broccoli to your project. How should you remove it?": {
-            "answer": "`git clean -f`"
         },
         "What command can you use to remove untracked files from the working directory?": {
             "answer": "`git clean -d -f`"
@@ -7838,7 +7861,7 @@
             "answer": "It does nothing. Modern browsers require some form of interaction before they let a page autoplay with audio."
         },
         "What is the difference between the `<head>` and `<header>` tags?": {
-            "answer": "all of these answers"
+            "answer": "All of the above."
         },
         "In this code, what is the purpose of defer?": {
             "answer": "It runs the script after HTML parsing is complete."
@@ -8027,7 +8050,7 @@
             "answer": "All col elements must be wrapped in a colgroup element."
         },
         "In this code, what is the purpose of the `id` attribute?": {
-            "answer": "frameborder"
+            "answer": "<ul>"
         }
     },
     "iMovie": {
@@ -8894,7 +8917,7 @@
             "answer": "`Object.keys()`"
         },
         "What will be logged to the console?": {
-            "answer": "`string`"
+            "answer": "First, Third, Second"
         },
         "What is one difference between collections created with Map and collections created with Object?": {
             "answer": "You can count the records in a Map with a single method call."
@@ -9243,6 +9266,12 @@
         },
         "Which of the following is a server-side Java Script object?": {
             "answer": "File"
+        },
+        "Which statement best describes the var keyword's scope in JavaScript?": {
+            "answer": "Function scope"
+        },
+        "What will be the output of running this code?": {
+            "answer": "Undefined"
         }
     },
     "jQuery": {
@@ -9405,7 +9434,9 @@
         "jQuery has a main function for handling AJAX, and several shorthand function including `load()` that make calling that main function easier. Given this HTML snippet, how can you insert only the second snippet from the source.html file (`div#one`) into the `#load-me` div on-demand via AJAX?": {
             "answer": "`$('#load-me').load('source.html #one');`"
         },
-        "Given this HTML list and subsequent two lines of jQuery, what is the difference in the behavior of `.closest()` and `.parents()`?": {},
+        "Given this HTML list and subsequent two lines of jQuery, what is the difference in the behavior of `.closest()` and `.parents()`?": {
+            "answer": "`.closest()` returns `.leaf` and `#main-menu`; `.parents()` returns `#main-menu` and `#sub-menu`."
+        },
         "What does this line of code do?": {
             "answer": "selects the first list item inside all unordered lists on the page"
         },
@@ -9493,14 +9524,18 @@
         "jQuery UI includes many animation features not found in jQuery core. Which choice is not one of the features that jQuery UI adds to jQuery?": {
             "answer": "forced CSS-equivalent hardware acceleration of all jQuery animations"
         },
-        "Given this snippet of HTML and jQuery, which answer accurately describes what the line of jQuery does?": {},
+        "Given this snippet of HTML and jQuery, which answer accurately describes what the line of jQuery does?": {
+            "answer": "It changes the menu items in the first list to red, then hides the item in the first list with the active class."
+        },
         "A jQuery selection acts on the HTML below, which selects the active menu item. What can you chain onto this selection to select the #main nav tag and add a class called \"processed\" to it?": {
             "answer": ".parents('#main').addClass('processed');"
         },
         "When might you want to use custom queues for animations instead of relying on the built-in FX queue?": {
             "answer": "all of these answers"
         },
-        "Which symbol is commonly used to represent the jQuery object?": {}
+        "Which symbol is commonly used to represent the jQuery object?": {
+            "answer": "$"
+        }
     },
     "JSON": {
         "By convention, what name is used for the first key in a JSON schema?": {
@@ -10923,6 +10958,18 @@
         },
         "The total types of the layer in radial basis function in neural networks is **\\_\\_**": {
             "answer": "3"
+        },
+        "What is a top-down parser?": {},
+        "Which search method will expand the node that is closest to the goal?": {},
+        "Which is used to improve the performance of heuristic search?": {},
+        "What is a sentence parser typically used for?": {
+            "answer": "It is used to parse sentences to derive their most likely syntax tree structures."
+        },
+        "Which of the following techniques can not be used for normalization in text mining?": {
+            "answer": "Stop Word Removal"
+        },
+        "How do you handle missing or corrupted data in a dataset?": {
+            "answer": "All of the above"
         }
     },
     "MATLAB": {
@@ -11516,7 +11563,9 @@
         "What rule type must you choose to conditionally format a value in a report based on another value in the same record?": {
             "answer": "Field Value Is..."
         },
-        "What can not be used as the record source for a report?": {},
+        "What can not be used as the record source for a report?": {
+            "answer": "embedded table"
+        },
         "You're building a database to track the books that library members check out. How can you ensure that every record in the checkout table is associated with a valid library member?": {
             "answer": "Enforce referential integrity between the checkout table and the member table."
         },
@@ -11822,6 +11871,9 @@
         },
         "You develop Azure solutions.": {
             "answer": "new CosmosClient(EndpointUri, PrimaryKey);"
+        },
+        "Your company plans to migrate all its data and resources to Azure. The company's migration plan states that only Platform as a Service (PaaS) solutions must be used in Azure. You need to deploy an Azure environment that meets the company's migration plan. What should you create?": {
+            "answer": "an Azure data center failure"
         }
     },
     "Microsoft Excel": {
@@ -12697,19 +12749,45 @@
         "You want a flow that sends an email if a new spreadsheet is added to a SharePoint library. What is the correct order for the steps shown?": {
             "answer": "C, B, A, E, D"
         },
-        "When building a flow from scratch, what is the first step to select?": {},
-        "For which kinds of tasks are button flows best used?": {},
-        "What is a condition?": {},
-        "How do you create a flow from within SharePoint?": {},
-        "Which of the following are types of triggers?": {},
-        "Some business processes take months or years to complete. Which strategies are useful when automating a long-running business approval process? (Select all that apply.)": {},
-        "The current date in a flow result is displayed as \"15 January, 2020\". What expression would you use to format the date as \"2020-01-15\"?": {},
-        "What is the easiest way to start a new flow?": {},
-        "When you open Power Automate, how do you find flows that are already available to you?": {},
-        "What best describes a scheduled trigger?": {},
-        "In this flow, what dynamic content would you use to include identification of the person who added the file to SharePoint? (Select from values listed.)": {},
-        "What best describes an automated trigger?": {},
-        "How do you add comments to an action?": {}
+        "When building a flow from scratch, what is the first step to select?": {
+            "answer": "the trigger"
+        },
+        "For which kinds of tasks are button flows best used?": {
+            "answer": "simple, repetitive tasks on mobile device"
+        },
+        "What is a condition?": {
+            "answer": "an action that determines subsequent steps of the flow"
+        },
+        "How do you create a flow from within SharePoint?": {
+            "answer": "From within a list or library, on the menu bar, click Flow > Create a new flow."
+        },
+        "Which of the following are types of triggers?": {
+            "answer": "instant, automated, and scheduled"
+        },
+        "Some business processes take months or years to complete. Which strategies are useful when automating a long-running business approval process? (Select all that apply.)": {
+            "answer": "C, D"
+        },
+        "The current date in a flow result is displayed as \"15 January, 2020\". What expression would you use to format the date as \"2020-01-15\"?": {
+            "answer": "formatDateTime(utcNow(), 'yyyy-MM-dd')"
+        },
+        "What is the easiest way to start a new flow?": {
+            "answer": "Create one from scratch, even if a template exists. That is the only way to make sure it fits your needs exactly."
+        },
+        "When you open Power Automate, how do you find flows that are already available to you?": {
+            "answer": "In the left navigation, click My flows."
+        },
+        "What best describes a scheduled trigger?": {
+            "answer": "a trigger that initiates a flow without user interaction at a set time for one or more instance"
+        },
+        "In this flow, what dynamic content would you use to include identification of the person who added the file to SharePoint? (Select from values listed.)": {
+            "answer": "Add the value for Created By DisplayName."
+        },
+        "What best describes an automated trigger?": {
+            "answer": "a trigger that initiates a flow without user interaction when an event occurs—for example, when an email is received or a record changes"
+        },
+        "How do you add comments to an action?": {
+            "answer": "In the top-right corner of the step card, click the small ellipsis and select Add a comment."
+        }
     },
     "Microsoft Power BI": {
         "A dataset that includes \\_ can be used to create a map visualization. (Select all that apply.)": {
@@ -13842,350 +13920,6 @@
             "answer": "It is a routing service for sharded clusters"
         }
     },
-    "MySQL": {
-        "When you have a subquery inside of the main query, which query is executed first?": {
-            "answer": "the subquery"
-        },
-        "You need to export the entire database, including the database objects, in addition to the data. Which command-line tool do you use?": {
-            "answer": "mysqldump"
-        },
-        "You must ensure the accuracy and reliability of the data in your database. You assign some constraints to limit the type of data that can go into a table. What type of constraints are you assigning?": {
-            "answer": "column level"
-        },
-        "Which option of most MySQL command-line programs can be used to get a description of the program's different options?": {
-            "answer": "--help"
-        },
-        "MySQL uses environment variables in some of the programs and command-line operations. Which variable is used by the shell to find MySQL programs?": {
-            "answer": "PATH"
-        },
-        "How can you create a stored procedure in MySQL?": {
-            "answer": "B"
-        },
-        "If you were building a table schema to store student grades as a letter (A, B, C, D, or F) which column type would be the best choice?": {
-            "answer": "ENUM"
-        },
-        "Management has requested that you build an employee database. You start with the employee table. What is the correct syntax?": {
-            "answer": "D"
-        },
-        "You are working with the tables as shown in this diagram. You need to generate the list of customers who purchased certain car models. Which SQL clause do you use?": {
-            "answer": "UNION"
-        },
-        "Which query would NOT be used to administer a MySQL server?": {
-            "answer": "SELECT column FROM tbl"
-        },
-        "MySQL server can operate in different SQL modes, depending on the value of the sql_mode system variable. Which mode changes syntax and behavior to conform more closely to standard SQL?": {
-            "answer": "ANSI"
-        },
-        "MySQL programs are a set of command-line utilities that are provided with typical MySQL distributions. MySQL is designed to be a database.": {
-            "answer": "client and server"
-        },
-        "Which MySQL command shows the structure of a table?": {
-            "answer": "DESCRIBE table;"
-        },
-        "MySQL uses security based on \\_ for all connections, queries, and other operations that users can attempt to perform. or How are permissions implemented in MySQL?": {
-            "answer": "access control lists"
-        },
-        "Which MySQL command modifies data records in a table?": {
-            "answer": "UPDATE"
-        },
-        "What is the best type of query for validating the format of an email address in a MySQL table?": {
-            "answer": "a SQL query using a regular expression"
-        },
-        "In MySQL, queries are always followed by what character?": {
-            "answer": "semicolon"
-        },
-        "How can you remove a record using MySQL?": {
-            "answer": "DELETE FROM"
-        },
-        "Which choice is NOT a statement you would use to filter data?": {
-            "answer": "GROUP BY"
-        },
-        "What does the following SQL statement return?": {
-            "answer": "It records in the Employees table where the value in the EmployeeName column starts with \"a\"."
-        },
-        "In `SELECT * FROM clients;` what does clients represent?": {
-            "answer": "a table"
-        },
-        "How does MySQL differ from SQL?": {
-            "answer": "SQL is a standard language for retrieving and manipulating data from structured databases. MySQL is a relational database management system that is used to manage SQL databases."
-        },
-        "If you need to order a table of movies by name, which query will work?": {
-            "answer": "SELECT \\* FROM movies ORDER BY name"
-        },
-        "A trigger is a database object that is associated with a table, and that activates when a particular event occurs for the table. Which three events are these?": {
-            "answer": "INSERT, UPDATE, DELETE"
-        },
-        "You are working with very large tables in your database. Which SQL clause do you use to prevent exceedingly large query results?": {
-            "answer": "LIMIT"
-        },
-        "What is the default port for MySQL Server?": {
-            "answer": "3306"
-        },
-        "How can you filter duplicate data while retrieving records from a table?": {
-            "answer": "DISTINCT"
-        },
-        "What is the difference between DROP and TRUNCATE?": {
-            "answer": "DROP deletes table completely, removing its definition as well. TRUNCATE clears the table but does not delete the definition."
-        },
-        "How do you select every row in a given table named \"inventory\"?": {
-            "answer": "SELECT \\* FROM inventory;"
-        },
-        "In an efficiently designed relational database, what does every table have?": {
-            "answer": "primary key"
-        },
-        "MySQL option files provide a way to specify commonly used options so that they need not be entered on the command line each time you run a program. What is another name for the option files?": {
-            "answer": "configuration files"
-        },
-        "After installing MySQL, it may be necessary to initialize the \\_ which may be done automatically with some MySQL installation methods.": {
-            "answer": "data directory"
-        },
-        "You need to export the data in the customers table into a CSV file, with columns headers in the first row. Which clause do you add to your MySQL command?": {
-            "answer": "UNION"
-        },
-        "One form of backup, replication, enables you to maintain identical data on multiple servers, as a \\_ configuration.": {
-            "answer": "master-slave"
-        },
-        "What is the requirement for using a subquery in the SELECT clause?": {
-            "answer": "the subquery must return a single value."
-        },
-        "Each time MySQL is upgraded, it is best to execute mysql_upgrade, which looks for incompatibilities with the upgraded MySQL server. What does this command do, upon finding a table with a possible incompatibility?": {
-            "answer": "it performs a table check and, if problems are found, attempts a table repair."
-        },
-        "What mysql statement is used to check which accounts have specific privileges?": {
-            "answer": "show grants (displays the privileges and roles that are assigned to a MySQL user account or role)"
-        },
-        "What cannot have a trigger associated with it?": {
-            "answer": "temporary table"
-        },
-        "later versions of mysql support the native json data type for storing json documents. What is a drawback of json columns?": {
-            "answer": "cannot be indexed directly"
-        },
-        "Which statement is true for the diagram below": {
-            "answer": "customerid is the foreign key for customers.id"
-        },
-        "Which statement can you use to load data from a file into the table?": {
-            "answer": "`LOAD DATA INFILE`"
-        },
-        "Which is the correct syntax of an extended insert statement?": {
-            "answer": "insert into cars (make, model, year) values ('Ford', 'Mustang', 2002),"
-        },
-        "You need to make an exact copy of a table, with all columns and indexes. How can you get all of the information needed to accomplish this?": {
-            "answer": "show create table"
-        },
-        "you need to make your mysql system secure against attackers. What are you _not_ supposed to do?": {
-            "answer": "Run MySQL server as the unix root user."
-        },
-        "You are managing a database with a table called customers. You created a temporary table also called customers with which you are working for the duration of your session. You need to re-create the temporary table with different specifications. Which command do you need to run first?": {
-            "answer": "`DROP TEMPORARY TABLE customers;`"
-        },
-        "You need to run a complex query with recursive subqueries, but without creating a stored procedure or a function. Which command or clause do you use?": {
-            "answer": "WITH"
-        },
-        "Which choice is not a processing algorithm for database views?": {
-            "answer": "updatable"
-        },
-        "What is the MySQL `perror` command-line utility used for?": {
-            "answer": "to display storage error codes"
-        },
-        "How can you list all columns for a given table?": {
-            "answer": "SHOW COLUMNS FROM table;"
-        },
-        "How would you list the full set of tables in the currently selected database?": {
-            "answer": "SHOW TABLES;"
-        },
-        "Which choice is not one of the table maintenance statements?": {
-            "answer": "CREATE TABLE;"
-        },
-        "In which table does MySQL store passwords for user accounts?": {
-            "answer": "mysql.user;"
-        },
-        "Management has requested that you build an employee database. You need to include each employee's current position and salary, as well as all prior positions and salaries with the company. You decide to use a one-to-many structure: an employee table with the main information such as name and address, and an employment table with position and salary history. You can use the employeeID field to connect them. What is employment.employeeID an example of?": {
-            "answer": "foreign key;"
-        },
-        "In recent versions of MySQL (8.0+), what's the correct syntax to declare a CTE (Common Table Expression)?": {
-            "answer": "WITH cte as (SELECT id FROM users) SELECT ..."
-        },
-        "What is one reason to introduce data redundancy into a normalized database design?": {
-            "answer": "to make the system faster"
-        },
-        "The code snippet below is used to read data from an XML file into a table. Which XML structure is \\_not\\_ supported by the statement?": {
-            "answer": "B"
-        },
-        "You are loading data into a table. Which command can you use to make sure that all data is inserted and duplicates rows are discarded?": {
-            "answer": "`INSERT IGNORE`"
-        },
-        "Which statement about the `TRUNCATE TABLE` statement is true?": {
-            "answer": "It does not invoke the `DELETE` triggers associated with the table."
-        },
-        "You are working with the tables as shown in this diagram. You need to get the number of cars sold per the home state of each customer's residence. How can you accomplish this?": {
-            "answer": "`SELECT state, COUNT(*) FROM customers c, purchases p WHERE c.ID = p.customerID GROUP BY state;`"
-        },
-        "In data migration, there is often a need to delete duplicate rows as part of data cleanup. Which statement works best?": {
-            "answer": "`DELETE JOIN`"
-        },
-        "When working with MySQL cursor, what must you also declare?": {
-            "answer": "`NOT FOUND` handler"
-        },
-        "Which type of backup includes all the changes made to the data since the last full backup was performed?": {
-            "answer": "differential"
-        },
-        "You need to restore a MySQL database from a backup file. Which command-line tool do you use for the actual data import, after re-creating the database?": {
-            "answer": "`mysql`"
-        },
-        "You are importing data as JSON into a new table. You run CREATE TABLE json_data ( city JSON ); and insert rows into this table. What is the correct syntax to see the list of cities?": {
-            "answer": "`SELECT city->>'$.name' city FROM json_data;`"
-        },
-        "If you want to use MyISAM instead of InnoDB, which option do you need to specify in the CREATE TABLE statement?": {
-            "answer": "ENGINE"
-        },
-        "You are working with the table in this diagram. You want to use full-text search to find the customers who live on a street or a drive. What is the command to do that?": {
-            "answer": "D"
-        },
-        "Which query lists the databases on the current server?": {
-            "answer": "SHOW DATABASES;"
-        },
-        "What is the product of the database designing phase?": {
-            "answer": "a list of entities, their relationship, constraints, data types, and cardinalities"
-        },
-        "Which choice is _not_ a valid model for a stored procedure parameter?": {
-            "answer": "IN OUT"
-        },
-        "What is the advantage of using a temporary table instead of a heap table?": {
-            "answer": "The temporary table will be dropped as soon as your session disconnects."
-        },
-        "What is the maximum number of columns that can be used by a single table index?": {
-            "answer": "16"
-        },
-        "Which command will return a list of triggers in the current database?": {
-            "answer": "`SHOW TRIGGERS;`"
-        },
-        "Which statement is true about TIMESTAMP and DATETIME data types?": {
-            "answer": "TIMESTAMP and DATETIME are both stored without time zone."
-        },
-        "What is the equivalent of the mysqladmin reload command?": {
-            "answer": "`mysqladmin flush-privileges`"
-        },
-        "Explain the security aspect of stored procedures": {
-            "answer": "Stored procedures are secure, because applications can be given access to stored procedures and not any underlying tables"
-        },
-        "How would you retrieve data on all the customers where no phone number is stored?": {
-            "answer": "`SELECT * FROM customers WHERE PhoneNumber IS NULL;`"
-        },
-        "In the diagram below, the price field is declared as type DECIMAL. What would be a more efficient declaration for this field?": {
-            "answer": "DECIMAL(10,2)"
-        },
-        "Which choice is `not` an available string type for a column?": {
-            "answer": "`BIT`"
-        },
-        "This diagram shows what type of relationship between customers and cars?": {
-            "answer": "many-to-many"
-        },
-        "A stored routine is a set of SQL statements stored on the server and takes form as either a procedure or a function. Which statement cannot be used inside stored routines?": {
-            "answer": "`USE`"
-        },
-        "When a new student is added to a new database, you want new records to be created in the related tables such as Exam, Score and Attendance. How would you accomplish this?": {
-            "answer": "trigger"
-        },
-        "In the diagram below, the ID fields are declared as type CHAR instead of INT . Which is NOT one of the possible reasons behind that decision?": {
-            "answer": "The `CHAR(10)` data type is more efficient and space-saving."
-        },
-        "Why would you use a common table expression (CTE)?": {
-            "answer": "To break down complex queries and allow reuse within a query."
-        },
-        "Which option modifier tells a program not to exit with an error if it does not recognize the option, but instead to issue a warning?": {
-            "answer": "--loose"
-        },
-        "What does this SQL statement return?": {
-            "answer": "all names starting with \"to,\" such as Tommy or Tony"
-        },
-        "You are working with the tables as shown in the diagram. You need to generate the list of price totals for each make and model of car, with subtotals for each make, and the grand total of all prices. Which SQL clause do you use?": {
-            "answer": "WITH ROLLUP"
-        },
-        "The left and right joins are also known as \\_.": {
-            "answer": "Outer Join"
-        },
-        "What is the valid way to create a database view in MySQL?": {
-            "answer": "`CREATE VIEW v1 AS SELECT * FROM t1;`"
-        },
-        "Inside a transaction, several operations need to be performed. What would you do if an exception happens during that transaction?": {
-            "answer": "`ROLLBACK`"
-        },
-        "What function finds the current time or date in MySQL?": {
-            "answer": "CURDATE()"
-        },
-        "What is the correct usage of ENUM in MySQL?": {
-            "answer": "`Create table size (name ENUM('Small','Medium','Large'));`"
-        },
-        "The mysqldump command cannot generate output in **\\_**.": {
-            "answer": "JSON"
-        },
-        "You are working with the tables shown below. You need to generate the list of all cars, whether or not they had been sold. Which statement accomplishes that?": {
-            "answer": "D"
-        },
-        "Which code snippet from a stored procedure should be rewritten as a CASE statement?": {
-            "answer": "D"
-        },
-        "Why would you use stored functions?": {
-            "answer": "for reusing recurring queries"
-        },
-        "What steps do you need to take to normalize the table from this diagram?": {
-            "answer": "Create another table to serve as a lookup for powers with fields for code and description, as well as a junction table with superhero names and power codes."
-        },
-        "A table Item has a Boolean field endOfLife and a field makeYear of type YEAR(4). How can you set the Boolean to true for all Items that have been made before 2019?": {
-            "answer": "UPDATE Item SET endOfLife = true WHERE makeYear < 2019"
-        },
-        "Which choice is an example of an aggregate function?": {
-            "answer": "COUNT()"
-        },
-        "You are working on UPDATE trigger on the employee tablein this diagram. How can you access the new value for the address inside the trigger?": {
-            "answer": "Use NEW.address"
-        },
-        "How would you make a case-insensitive query in MySQL?": {
-            "answer": "`SELECT * FROM customers WHERE UPPER(LastName) = 'POTTER';`"
-        },
-        "\"COUNT\" keyword belongs to which categories in Mysql?": {
-            "answer": "Aggregate functions"
-        },
-        "What is the meaning of \"HAVING\" clause in Mysql?": {
-            "answer": "To filter out the row values"
-        },
-        "Which clause is similar to \"HAVING\" clause in Mysql?": {
-            "answer": "WHERE"
-        },
-        "What will be the output of the following MySQL command?": {
-            "answer": "Columns mention with \"SELECT\" clause and only those rows which contain 'HEAD TELLER' as a \"title\""
-        },
-        "Is there any error in the following MySQL statement?": {
-            "answer": "NO"
-        },
-        "With MySQL, how do you select all the records from a table named \"Persons\" where the \"LastName\" is alphabetically between (and including) \"Hansen\" and \"Pettersen\"?": {
-            "answer": "`SELECT * FROM Persons WHERE LastName BETWEEN 'Hansen' AND 'Pettersen'`"
-        },
-        "Consider the set of relations given below and the SQL query that follows": {
-            "answer": "Names of Students who have got an A grade in at least one of the courses taught by Sriram"
-        },
-        "You are working with the tables shown below. You need to make sure that any record added to the purchases table consists of a customerlD, which already exists in the customers table, and a carlD, which already exists in the cars table. You decide to use a trigger to do the validation. Which one do you use?": {
-            "answer": "BEFORE INSERT"
-        },
-        "Current versions of MySQL support the full-text search feature on some storage engines, as an alternative to using the LIKE operator and regular expressions. Which statement would you run to enable a full-text index for the column description in the table Car?": {
-            "answer": "ALTER TABLE car ADD FULL TEXT(description);"
-        },
-        "Which statement would you _not_ use to filter data?": {
-            "answer": "GROUP_BY"
-        },
-        "In MySQL, which JOIN type returns all rows from the left table and the matching rows from the right table, and fills in with NULL values if there is no match on the right side?": {
-            "answer": "LEFT JOIN (or LEFT OUTER JOIN)"
-        },
-        "What does SQL stand for in MySQL?": {
-            "answer": "Structured Query Language"
-        },
-        "Which MySQL statement is used to select data from a database?": {
-            "answer": "select"
-        },
-        "What is the purpose of the `PRIMARY KEY` in a MySQL table?": {},
-        "Which of the following is a valid SQL query to insert a new row into the users table?": {},
-        "Which of the following is a valid SQL query to delete the row with the id of 2 from the users table?": {}
-    },
     "Node.js": {
         "When a javaScript function is invoked (called) in Node, where is a new frame placed?": {
             "answer": "the call stack"
@@ -15067,6 +14801,12 @@
         },
         "What is the difference between Bus 1-2 and Bus 3-4?": {
             "answer": "Bus 1-2 is in expanded sends view, while Bus 3-4 is not."
+        },
+        "What are MIDl tracks for?": {
+            "answer": "sending and receiving MIDI events to and from an attached MIDI hardware device"
+        },
+        "What does the Object Grabber allow you to do?": {
+            "answer": "select noncontiguous clips"
         }
     },
     "Python (Programming Language)": {
@@ -15597,7 +15337,8 @@
         },
         "In Python, which function is used to read a line from the console input?": {
             "answer": "input()"
-        }
+        },
+        "1. What will be the output of the following Python code?": {}
     },
     "QuickBooks": {
         "How can you track sick and vacation time in QuickBooks?": {
@@ -15995,6 +15736,12 @@
         },
         "In the image below, the data frame named iris includes a numeric vector named Petal.Length. Do the functions labeled Pair 1 and Pair 2 return the same information?": {
             "answer": "No, both the length and the class of the returned structures are different."
+        },
+        "The **\\_** for R are the main feature that make it different from the original S language.": {
+            "answer": "scoping rules"
+        },
+        "Which of the following is a base package for R programming ?": {
+            "answer": "tools"
         }
     },
     "React.js": {
@@ -16040,20 +15787,20 @@
         "If you created a component called Dish and rendered it to the DOM, what type of element would be rendered?": {
             "answer": "`h1`"
         },
-        "What does this React element look like given the following function? (Alternative: Given the following code, what does this React element look like?)": {
+        "What does this React element look like given the following code? (Alternative: Given the following code, what does this React element look like?)": {
             "answer": "`<h1>What's happening?</h1>`"
         },
         "What property do you need to add to the Suspense component in order to display a spinner or loading state?": {
             "answer": "fallback"
         },
-        "What do you call the message wrapped in curly braces below?": {
+        "How would you describe the message variable wrapped in curly braces below?": {
             "answer": "a JS expression"
         },
         "What can you use to handle code splitting?": {
             "answer": "`React.lazy`"
         },
         "When do you use `useLayoutEffect`?": {
-            "answer": "to change the layout of the screen"
+            "answer": "Props are passed to a component, state is managed within the component"
         },
         "What is the difference between the click behaviors of these two buttons (assuming that this.handleClick is bound correctly)?": {
             "answer": "There is no difference."
@@ -16118,7 +15865,7 @@
         "How do you set a default value for an uncontrolled form field?": {
             "answer": "Use the `defaultValue` property."
         },
-        "What do you need to change about this code to get it to run?": {
+        "What do you need to change about this code to get this code to run?": {
             "answer": "Capitalize `clock`"
         },
         "Which Hook could be used to update the document's title?": {
@@ -16137,7 +15884,7 @@
             "answer": "A function component accepts a single props object and returns a React element."
         },
         "Which library does the `fetch()` function come from?": {
-            "answer": "Redux is typically used when you have complex state management needs, such as sharing state between multiple components or handling deeply nested state."
+            "answer": "By using React context"
         },
         "What will happen when this useEffect Hook is executed, assuming name is not already equal to John?": {
             "answer": "It will update the value of name once and not run again until name is changed from the outside."
@@ -16304,7 +16051,7 @@
         "This code is part of an app that collects Pokemon. The useState hook below is a piece of state holding onto the names of the Pokemon collected so far. How would you access the collected Pokemon in state?": {
             "answer": "pokeDex"
         },
-        "What would you pass to the onClick prop that wil allow you to pass the initName prop into the greet handler?": {
+        "What would you pass to the onClick prop that will allow you to pass the initName prop into the greet handler?": {
             "answer": "() => hug(initName)"
         },
         "What is the name of the compiler used to transform JSX into JavaScript?": {
