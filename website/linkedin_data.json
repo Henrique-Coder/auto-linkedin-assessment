@@ -1817,11 +1817,15 @@
         "How can you choose which frame of composition to show as a thumbnail image for the composition in the Project panel?": {
             "answer": "Select the desired frame in the Composition Settings dialog box."
         },
-        "When you want to add properties to the Essential Graphics panel, how can you easily see only the supported properties?": {},
+        "When you want to add properties to the Essential Graphics panel, how can you easily see only the supported properties?": {
+            "answer": "Click the Solo Supported Properties button in the Essential Graphics panel."
+        },
         "You want to take an existing layer and make it into two separate layers. How can you do this such that the separation occurs at the playhead?": {
             "answer": "Click Layer > Split Layer."
         },
-        "How can you create a single composition from multiple footage items?": {},
+        "How can you create a single composition from multiple footage items?": {
+            "answer": "Select the items and click Composition > New Composition from Selection."
+        },
         "You attach a video monitor to view your color correction. Where can you configure the monitor’s preferences?": {
             "answer": "Preferences > Video Hardware"
         },
@@ -2700,7 +2704,7 @@
             "answer": "It configures the router to immediately load all routes that have a loadChildren property(routes that are typically loaded when requested)"
         },
         "What is an alternative way to write this markup to bind the value of the class field `userName` to the `h1` element title property?": {
-            "answer": "title=\"{{ userName }}\""
+            "answer": "`title=\"{{ userName }}\"`"
         },
         "What is the `async` pipe doing in this example?": {
             "answer": "It is subscribing to the observable returned from the `HttpClient.get` method and unwrapping the returned value so it can be iterated over in the `ngFor`."
@@ -2781,7 +2785,7 @@
             "answer": "CanActivate is used to check access. CanLoad is used to preload data for the route."
         },
         "With the following component class, what template syntax would you use in the template to display the result of calling the currentYear class function?": {
-            "answer": "{{ currentYear() }}"
+            "answer": "`{{ currentYear() }}`"
         }
     },
     "Arc GIS": {
@@ -3283,7 +3287,9 @@
         "Pose-to-pose is common character animation technique. In this process of blocking out poses and timing, the animator may wish to disable all interpolated motion. How can you disable all inbetweening in the viewport wihout changing the animation curve?": {
             "answer": "Enable Stepped Previews"
         },
-        "Which texture type does not require UVs to render in software?": {},
+        "Which texture type does not require UVs to render in software?": {
+            "answer": "File texture"
+        },
         "Before rendering any dynamic simulation, what must you do in order to get a predictable and consistent result?": {
             "answer": "Bake to keyframes"
         },
@@ -3323,8 +3329,12 @@
         "A scene calls for unique trees and other plants in the background, What is the optimal tool or technique to create complex plants that will save production time and still look good in a final rendering?": {
             "answer": "Paint Effects"
         },
-        "Polygons can be double-sided or single-sided. For a single-sided polygon, only one side is renderable, and the flip side is invisible in a rendering. What property of polygon determines which side is renderable?": {},
-        "Which tool is designed to enable an artist to manually retopologize a mesh?": {},
+        "Polygons can be double-sided or single-sided. For a single-sided polygon, only one side is renderable, and the flip side is invisible in a rendering. What property of polygon determines which side is renderable?": {
+            "answer": "face normal direction"
+        },
+        "Which tool is designed to enable an artist to manually retopologize a mesh?": {
+            "answer": "Quad Draw"
+        },
         "What is the standard method to preserve links to dependent files such as bitmap textures?": {
             "answer": "Save dependent files to the same project as the scene files"
         },
@@ -4178,7 +4188,7 @@
             "answer": "It accepts text from the standard input and places it in the \"notes\" file."
         },
         "You want to match five-letter palindromes such as radar, rotor, and tenet. Which sed option should you use?": {
-            "answer": "sed -E -n '/^(.)(.)(.)\\2\\1$/p'"
+            "answer": "`sed -E -n '/^(.)(.)(.)\\2\\1$/p'`"
         },
         "To add a value to the current environment, what command should you use ?": {
             "answer": "export"
@@ -4288,7 +4298,7 @@
             "answer": "Public members can be accessed by any function. Private members can be accessed only by the same class's member functions and the friends of the class."
         },
         "What is the value of `x` after executing this code?": {
-            "answer": "-3"
+            "answer": "7"
         },
         "Which statement is true?": {
             "answer": "C++ supports multiple inheritance."
@@ -4445,7 +4455,7 @@
             "answer": "Pointer for a function"
         },
         "What is the correct syntax to output \"Hello World\" in C++?": {
-            "answer": "cout << \"Hello World\";"
+            "answer": "`cout << \"Hello World\";`"
         },
         "How many categories of iterators are there in C++?": {
             "answer": "5"
@@ -4636,7 +4646,9 @@
         "153 What is the output of this code?": {
             "answer": "1/2 = 0.000000"
         },
-        "154 Which choice is _not_ related to declaring the member variable count as static in my_class?": {},
+        "154 Which choice is _not_ related to declaring the member variable count as static in my_class?": {
+            "answer": "The variable cannot be modified by any part of the code in the same application or thread. However, other threads may modify it."
+        },
         "What is the purpose of the `constexpr` keyword in C++?": {
             "answer": "`constexpr` is used to indicate that an expression can be evaluated at compile-time, making it suitable for use in constant expressions."
         },
@@ -5996,13 +6008,13 @@
             "answer": "nothing"
         },
         "You have placed an image in a directory named images and want to reference it from a page located at the root of your site. Which choice would correctly display the image on the page?": {
-            "answer": "< img src=\"images/image.jpg\">"
+            "answer": "`<img src=\"images/image.jpg\">`"
         },
         "Which choice is a correct use of the parseInt() function in Javascript that parses a string and returns an integer?": {
             "answer": "parseInt(\"6\");"
         },
         "How can you rewrite this function using arrow function syntax?": {
-            "answer": "let product = (x,y) => x\\*y;"
+            "answer": "`let product = (x,y) => x\\*y;`"
         },
         "Lighthouse is a tool for auditing your website. Which choice is not a category of report offered by Lighthouse?": {
             "answer": "UX design"
@@ -6164,7 +6176,7 @@
             "answer": "The value of a class attribute should be unique in an HTML document."
         },
         "Which command has no Syntax error in CSS?": {
-            "answer": "#my-div {background-color: blue;}"
+            "answer": "`#my-div {background-color: blue;}`"
         },
         "What type of CSS is the following snippet?": {
             "answer": "Inline"
@@ -6295,7 +6307,7 @@
             "answer": "None of these"
         },
         "Which command will list tags with the 1.4.2 series?": {
-            "answer": "git tag -I 'v1.4.2.\\*'"
+            "answer": "git tag -l 'v1.4.2.\\*'"
         },
         "Which of the following is an integration manager?": {
             "answer": "Depends upon project type"
@@ -6502,19 +6514,19 @@
             "answer": "git reset HEAD^ -- config.properties"
         },
         "After a recent release with a stack trace, an issue is create that indicates the problem is with a newly added configuration property named MaxConnections. What command can find all commits that add or remove the string MaxConnections?": {
-            "answer": "- git log -S \"MaxConnections\""
+            "answer": "git log -S \"MaxConnections\""
         },
         "Your company has moved its remote repository to GitHub at this location: https://github.com/yourcompany/core-api.git. What command updates the remote repository, named origin, to point to the new remote repository at this location?": {
-            "answer": "- git remote set-url origin https://github.com/yourcompany/core-api.git"
+            "answer": "git remote set-url origin https://github.com/yourcompany/core-api.git"
         },
         "When is the cherry-pick command used?": {
-            "answer": "- when a commit from one branch needs to be copied into another branch"
+            "answer": "when a commit from one branch needs to be copied into another branch"
         },
         "How would you describe a forked repository?": {
-            "answer": "- a separate copy of a repository"
+            "answer": "a separate copy of a repository"
         },
         "How can you exclude untracked files within the working directory from a Git repository?": {
-            "answer": "- Add a pattern matching the files to the .gitignore file."
+            "answer": "Add a pattern matching the files to the .gitignore file."
         },
         "What command creates a near-exact copy of the entire repository from a server?": {
             "answer": "`git clone <url>`"
@@ -8050,7 +8062,7 @@
             "answer": "All col elements must be wrapped in a colgroup element."
         },
         "In this code, what is the purpose of the `id` attribute?": {
-            "answer": "<ul>"
+            "answer": "`<ul>`"
         }
     },
     "iMovie": {
@@ -8396,7 +8408,7 @@
             "answer": "1, 6, 11"
         },
         "When elevated access is required, what steps must a user take?": {
-            "answer": "User account permissions are elevated in Settings or Preferences."
+            "answer": "Sign out and sign in again with an administrator account."
         }
     },
     "Java": {
@@ -8826,7 +8838,9 @@
         "How many objects are eligible for garbage collection till flag": {
             "answer": "2. 1"
         },
-        "Which interface definition allows this code to compile": {},
+        "Which interface definition allows this code to compile": {
+            "answer": "B"
+        },
         "Which of the following represents the time complexity of an algorithm?": {
             "answer": "O(A\\*B)"
         },
@@ -8850,6 +8864,9 @@
         },
         "Which of these classes allows us to define our own formatting pattern for dates and times?": {
             "answer": "SimpleDateFormat"
+        },
+        "What kind of relationship does extends denote?": {
+            "answer": "is-a"
         }
     },
     "JavaScript": {
@@ -9566,7 +9583,7 @@
             "answer": "required"
         },
         "Which is the valid JSON equivalent of the data shown?": {
-            "answer": "D"
+            "answer": "`{\"photo\": {\"width\": \"1600\", \"height\": \"900\", \"binaries\": { \"url\": \"https://www.example.com/images/34097349843\", \"thumbnail\": \"https://www.example.com/images/thumbs/34097349843\"}, \"animated\": \"false\", \"tags\": [\"116\", \"943\", \"234\", \"38793\"]}}`"
         },
         "How do you store several paragraphs of text as a string in JSON?": {
             "answer": "Escape line breaks."
@@ -9629,7 +9646,7 @@
             "answer": "Because it's a simple and adaptable format for sharing data."
         },
         "You need to assemble a list of members, but your JSON is not parsing correctly. How do you change it?": {
-            "answer": "A"
+            "answer": "`{\"avengers\": [\"iron man\", \"hulk\", \"thor\", \"black widow\", \"ant man\", \"spider man\"]}`"
         },
         "When building dynamic web applications using AJAX, developers originally used the \\_ data format, which has since been replaced by JSON.": {
             "answer": "XML"
@@ -10959,9 +10976,15 @@
         "The total types of the layer in radial basis function in neural networks is **\\_\\_**": {
             "answer": "3"
         },
-        "What is a top-down parser?": {},
-        "Which search method will expand the node that is closest to the goal?": {},
-        "Which is used to improve the performance of heuristic search?": {},
+        "What is a top-down parser?": {
+            "answer": "Begins by hypothesizing a sentence (the symbol S) and successively predicting lower level constituents until individual preterminal symbols are written"
+        },
+        "Which search method will expand the node that is closest to the goal?": {
+            "answer": "Greedy best-first search"
+        },
+        "Which is used to improve the performance of heuristic search?": {
+            "answer": "Quality of heuristic function"
+        },
         "What is a sentence parser typically used for?": {
             "answer": "It is used to parse sentences to derive their most likely syntax tree structures."
         },
@@ -11046,7 +11069,7 @@
             "answer": "1"
         },
         "Which statement could create this cell array?": {
-            "answer": "c = {\"hello world\" {\"hello\"} \"goodbye\" [1 2 3]};"
+            "answer": "c = `{\"hello world\" {\"hello\"} \"goodbye\" [1 2 3]};`"
         },
         "Which choice adds `b` to each row of `a`?": {
             "answer": "a = a + repmat(b, 4, 1);"
@@ -11324,7 +11347,9 @@
         "In multimodule projects, what do child POMs inherit from the parent POM?": {
             "answer": "all of these answers"
         },
-        "Below is a report generated for a multimodule project with the Checkstyle Plugin. Why might the highlighted links to the two child projects _not_ work?": {},
+        "Below is a report generated for a multimodule project with the Checkstyle Plugin. Why might the highlighted links to the two child projects _not_ work?": {
+            "answer": "All links in Checkstyle reports must be specified in the plugin definition."
+        },
         "Which build plugin allows you to create a \"fat\" JAR file that contains all of the dependencies in the final JAR file?": {
             "answer": "Shade"
         },
@@ -11410,7 +11435,9 @@
         "Below is the configuration for a server on settings.xml. What does this configuration do?": {
             "answer": "It turns off the default behavior for headers and respecifies the Accept-Encoding header for the server with ID openssl."
         },
-        "Below is the build element of a parent POM file. Why might the resources not get copied when executing the plugin on a child project?": {},
+        "Below is the build element of a parent POM file. Why might the resources not get copied when executing the plugin on a child project?": {
+            "answer": "The plugin may not have been defined in the child POM."
+        },
         "This image shows a POM file with a profile. When will this profile be activated?": {
             "answer": "when the system property debug is not set to true, or is not defined"
         },
@@ -12034,7 +12061,7 @@
             "answer": "Cell A2 contains the value 8 and cell B2 is empty."
         },
         "In the formula `=VLOOKUP(A1,D1:H30,3,FALSE)`, the lookup value (A1) is being looked for in **\\_**.": {
-            "answer": "column F"
+            "answer": "column D"
         },
         "An .xlsx workbook is saved into .csv format. What is preserved in the new .csv file?": {
             "answer": "cell values only"
@@ -15800,7 +15827,7 @@
             "answer": "`React.lazy`"
         },
         "When do you use `useLayoutEffect`?": {
-            "answer": "Props are passed to a component, state is managed within the component"
+            "answer": "to change the layout of the screen"
         },
         "What is the difference between the click behaviors of these two buttons (assuming that this.handleClick is bound correctly)?": {
             "answer": "There is no difference."
@@ -15884,7 +15911,7 @@
             "answer": "A function component accepts a single props object and returns a React element."
         },
         "Which library does the `fetch()` function come from?": {
-            "answer": "By using React context"
+            "answer": "The `key` prop is used by React to optimize updates and identify which items have changed or been added/removed in the list."
         },
         "What will happen when this useEffect Hook is executed, assuming name is not already equal to John?": {
             "answer": "It will update the value of name once and not run again until name is changed from the outside."
@@ -16140,6 +16167,21 @@
         },
         "When is the Hello component displayed?": {
             "answer": "when isLoggedIn is true"
+        },
+        "What is the difference between state and props in React?": {
+            "answer": "Props are passed to a component, state is managed within the component"
+        },
+        "What is the primary function of React Router?": {
+            "answer": "React Router is used for adding navigation and routing to React applications, allowing users to navigate between different views or pages."
+        },
+        "When should you use Redux in a React application?": {
+            "answer": "Redux is typically used when you have complex state management needs, such as sharing state between multiple components or handling deeply nested state."
+        },
+        "What is the use of React hooks?": {
+            "answer": "To allow using state and lifecycle methods in function components"
+        },
+        "How can you pass data through a React component tree without having to pass props down manually at every level?": {
+            "answer": "By using React context"
         }
     },
     "REST APIs": {
