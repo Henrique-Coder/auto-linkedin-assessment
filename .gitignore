@@ -1,14 +1,11 @@
-# OS Generated
-*.ini
-
 # IDE
 .idea
 venv
 __pycache__
 
-# Other folders
+# Custom directories
 debug
 .compiler
 
-# Other files
+# Custom extensions/files
 *.bat
